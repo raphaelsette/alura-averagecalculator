@@ -1,20 +1,19 @@
 function calculoMedia() {
-    var nomeAluno = document.getElementById("nomeAluno").value;
-    var notaPrimeiroBimestre = parseInt(document.getElementById("notaPrimeiroBimestre").value);
-    var notaSegundoBimestre = parseInt(document.getElementById("notaSegundoBimestre").value);
-    var notaTerceiroBimestre = parseInt(document.getElementById("notaTerceiroBimestre").value);
-    var notaQuartoBimestre = parseInt(document.getElementById("notaQuartoBimestre").value);
+    var notaPrimeiroBimestre = parseInt(document.getElementById("nota-primeiro-bimestre").value);
+    var notaSegundoBimestre = parseInt(document.getElementById("nota-segundo-bimestre").value);
+    var notaTerceiroBimestre = parseInt(document.getElementById("nota-terceiro-bimestre").value);
+    var notaQuartoBimestre = parseInt(document.getElementById("nota-quarto-bimestre").value);
 
     var mediaFinal = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre) / 4;
 
-    var calculoMedia = document.getElementById("calculoMedia");
-    calculoMedia.innerHTML = nomeAluno + " a sua média é " + mediaFinal.toFixed(1);
+    var calculoMedia = document.getElementById("calculo-media");
+    calculoMedia.innerHTML = "A sua média final é " + mediaFinal.toFixed(1);
 
     if (mediaFinal >= 6) {
-        var statusMedia = document.getElementById("statusMedia");
-        statusMedia.innerHTML = "Você está APROVADO!";
+        var statusMedia = document.getElementById("status-da-media");
+        statusMedia.innerHTML = "Você está <p id='status-aprovado'>APROVADO!</p>";
     } else {
-        var statusMedia = document.getElementById("statusMedia");
-        statusMedia.innerHTML = "Você está REPROVADO!";
+        var statusMedia = document.getElementById("status-da-media");
+        statusMedia.innerHTML = "Você está <p id='status-reprovado'>REPROVADO!</p>";
     }
 }

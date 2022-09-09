@@ -2,31 +2,46 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <script src="script.js" async></script>
         <title>Calculadora de média</title>
     </head>
     <body>
+        <header>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg">
+            <h1>Calculadora de Média</h1>
+            <p>A média para ser aprovado é 6.</p>
+        </header>
         <main>
-            <label for="nomeAluno">Aluno</label>
-            <input type="text" id="nomeAluno">
-
-            <label for="notaPrimeiroBimestre">Primeiro Bimestre</label>
-            <input type="number" id="notaPrimeiroBimestre">
-
-            <label for="notaSegundoBimestre">Segundo Bimestre</label>
-            <input type="number" id="notaSegundoBimestre">
-
-            <label for="notaTerceiroBimestre">Terceiro Bimestre</label>
-            <input type="number" id="notaTerceiroBimestre">
-
-            <label for="notaQuartoBimestre">Quarto Bimestre</label>
-            <input type="number" id="notaQuartoBimestre">
-
-            <button type="button" onclick="calculoMedia()">Calcular Média</button>
-
-            <h2 id="calculoMedia"></h2>
-            <h2 id="statusMedia"></h2>
+            <div class="input-dos-dados">
+                <div>
+                    <label for="nota-primeiro-bimestre">Primeiro Bimestre</label>
+                    <input type="number" id="nota-primeiro-bimestre" placeholder="Digite a nota...">
+                </div>
+                <div>
+                    <label for="nota-segundo-bimestre">Segundo Bimestre</label>
+                    <input type="number" id="nota-segundo-bimestre" placeholder="Digite a nota...">
+                </div>
+                <div>
+                    <label for="nota-terceiro-bimestre">Terceiro Bimestre</label>
+                    <input type="number" id="nota-terceiro-bimestre" placeholder="Digite a nota...">
+                </div>
+                <div>
+                    <label for="nota-quarto-bimestre">Quarto Bimestre</label>
+                    <input type="number" id="nota-quarto-bimestre" placeholder="Digite a nota...">
+                </div>
+                <div>
+                    <button type="button" onclick="calculoMedia()">Calcular Média</button>
+                </div>
+            </div>
+            <div class="resultado-dos-dados">
+                <h2 id="calculo-media"></h2>
+                <h2 id="status-da-media"></h2>
+            </div>
         </main>
+        <footer>
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg">
+        </footer>
     </body>
 </html>

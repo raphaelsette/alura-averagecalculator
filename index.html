@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" async></script>
+        <title>Calculadora de média</title>
+    </head>
+    <body>
+        <main>
+            <label for="nomeAluno">Aluno</label>
+            <input type="text" id="nomeAluno">
+
+            <label for="notaPrimeiroBimestre">Primeiro Bimestre</label>
+            <input type="number" id="notaPrimeiroBimestre">
+
+            <label for="notaSegundoBimestre">Segundo Bimestre</label>
+            <input type="number" id="notaSegundoBimestre">
+
+            <label for="notaTerceiroBimestre">Terceiro Bimestre</label>
+            <input type="number" id="notaTerceiroBimestre">
+
+            <label for="notaQuartoBimestre">Quarto Bimestre</label>
+            <input type="number" id="notaQuartoBimestre">
+
+            <button type="button" onclick="calculoMedia()">Calcular Média</button>
+
+            <h2 id="calculoMedia"></h2>
+            <h2 id="statusMedia"></h2>
+        </main>
+    </body>
+</html>

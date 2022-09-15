@@ -4,14 +4,16 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="alura.svg">
         <script src="script.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
         <title>Calculadora de média</title>
     </head>
     <body>
         <header>
-            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg">
+            <img src="logo-imersao.svg">
             <h1>Calculadora de Média</h1>
-            <p>A média para ser aprovado é 6.</p>
+            <p>A média para ser aprovado é 6.0</p>
         </header>
         <main>
             <div class="input-dos-dados">
@@ -32,7 +34,7 @@
                     <input type="number" id="nota-quarto-bimestre" placeholder="Digite a nota...">
                 </div>
                 <div>
-                    <button type="button" onclick="calculoMedia()">Calcular Média</button>
+                    <button type="button" onClick="calculoMedia()">Calcular Média</button>
                 </div>
             </div>
             <div class="resultado-dos-dados">
@@ -41,7 +43,7 @@
             </div>
         </main>
         <footer>
-            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg">
+            <img src="alura.svg">
         </footer>
     </body>
 </html>

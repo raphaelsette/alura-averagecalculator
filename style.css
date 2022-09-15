@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html {
+    position: relative;
+    min-height: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
@@ -7,6 +11,7 @@ body {
     display: flex;
     background: #1B1D1C;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 header {
     margin: 0 auto 0 auto;

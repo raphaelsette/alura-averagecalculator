@@ -6,18 +6,18 @@
   ## 
   </div>
   
-  Desenvolvimento de uma calculadora de média utilizando JavaScript, HTML5 e CSS3.
+Development of an average calculator using JavaScript, HTML5, and CSS3.
   
-  - Inserir 4 notas, somar e exibir a média
-  - Para ser aprovado deve ter média 6
-  - Exibe na tela a mensagem de aprovado ou reprovado
+- Enter 4 grades, sum them, and display the average
+- To pass, the average grade must be 6 or higher
+- Displays on the screen a message whether the student passed or failed.
  
   
- ## Demonstração
+ ## Preview
 
-[https://raphaelsette.github.io/calculadora-de-media/](https://raphaelsette.github.io/calculadora-de-media/)
+[https://raphaelsette.github.io/alura-averagecalculator/](https://raphaelsette.github.io/alura-averagecalculator/)
 
-## Referências
+## References
 
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators" target="_blank">Operadores boleanos</a>
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat" target="_blank">parseFloat</a>
@@ -25,6 +25,6 @@
  - <a href="https://sweetalert2.github.io/" target="_blank">Sweetalert2</a>
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Documentação JavaScript</a>
 
-## Autores
+## Authors
 
 - [@raphaelsette](https://www.github.com/raphaelsette)

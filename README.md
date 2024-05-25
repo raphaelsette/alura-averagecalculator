@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://imersao.dev/">
-  <img height="65em" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"/><br><br>
+  <img height="65em" src="https://raphaelsette.github.io/alura-averagecalculator/assets/img/logo-imersao.svg"/><br><br>
   <img height="65em" src="https://imersao.dev/assets/img/alura-logo-white.1647533645.svg"/></a><br>
   
   ## 

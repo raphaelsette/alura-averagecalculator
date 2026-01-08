@@ -8,9 +8,9 @@
   
   </div>
   
-# 🧮 Calculadora de Média - Imersão Dev
+# 🧮 Calculadora de Média
 
-Uma aplicação web simples e intuitiva desenvolvida para calcular a média de quatro notas bimestrais, informando se o aluno foi aprovado ou reprovado. Este projeto faz parte da Imersão Dev da Alura.
+Uma aplicação web intuitiva desenvolvida para calcular a média de quatro notas bimestrais, informando se o aluno foi aprovado ou reprovado. Este projeto faz parte da Imersão Dev da Alura.
  
 ## 🚀 Funcionalidades
 
